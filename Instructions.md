@@ -5,6 +5,8 @@
 - Root access (you're already root in Docker)
 - At least 10GB of free disk space
 - Sufficient RAM (8GB+ recommended)
+- Recommendation: Use a Runpod Pytorch Template 12.4 CUDA
+  - runpod/pytorch:2.4.0-py3.11-cuda12.4.1-devel-ubuntu22.04
 
 ## Setup Steps
 
