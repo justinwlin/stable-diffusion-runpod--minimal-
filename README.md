@@ -61,10 +61,6 @@ All Stable Diffusion WebUI dependencies are pre-installed in the Docker image fo
 ### Network Volume Support
 The start.sh script clones Stable Diffusion WebUI at runtime to `/workspace/` to support RunPod network volumes, allowing models, configurations, and extensions to persist across container restarts.
 
-## Customization
-
-Modify `handler.py` for custom serverless logic or extend the Dockerfile for additional dependencies.
-
 ## License
 
 MIT
